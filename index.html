@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Perfil</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Barra de navegacion-->
+    <header>
+        <nav class="nav">
+            <div class="nav-left">
+                <h2 class="nav-title">Perfil</h2>
+                <ul class="nav-links">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#" class="active">My Profile</a></li>
+                    <li><a href="#">Encontrar conexiones</a></li>
+                </ul>
+            </div>
+            <button type="button" class="btn">Cerrar Sesión</button>
+        </nav> 
+    </header>
+    <main>
+        <div class="container-main">
+            <div class="container-main-left">
+                <div class="container-flex">
+                    <div class="perfil">
+                        <div class="row">
+                            <img id="usuario" src="./images/jane-m.jpg" alt="fotodeperfil">
+                        </div>
+                        <div class="data">
+                            <h1>Jane Doe</h1>
+                            <div class="icon-text">
+                                <img src="./icons/map-marker.png" alt="iconodemapa">
+                                <p>Seattle</p>
+                            </div>
+                            <p>Developer | Enginner | Problem Solver<br> Master of Shadows and the Internet!</p>
+                            <div class="icon-text">
+                                <p>
+                                    <a href="#">
+                                        <img src="./icons/gear.png" alt="engranaje">edit profile</a>
+                                </p>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+                <div class="education">
+                    <div class="header">
+                        <h3>Education</h3>
+                    </div>
+                    <div class="edu-content">
+                        <h3>Coding Dojo - Full Stack Bootcamp</h3>
+                        <p><span>Dec 2019 - Mar 2020</span><br>
+                            Triple black belt in Python, MERN, and C#.
+                        </p> 
+                    </div>
+                </div>
+            </div>
+            <div class="container-main-right">
+                <div class="Requests">
+                    <div class="header">
+                        <p class="number">2</p>
+                        <h3>Connection Requests</h3>
+                    </div>
+                    <div class="content-request">
+                        <div class="namepic">
+                            <ul>
+                                <li><img src="/images/todd-s.jpg" alt="imagen de Tood">Tood E</li>
+                                <li><img src="./images/phil-s.jpg" alt="imagen de Phil">Phil K</li>
+                            </ul>
+                        </div>
+                        <div class="icons">
+                            <div class="pairpics">
+                                <a href="#"><img src="./icons/accept-circle.png" alt="aceptar"></a>
+                                <a href="#"><img src="./icons/close-circle.png" alt="noaceptar"></a>
+                            </div>
+                            <div class="pairpics">
+                                <a href="#"><img src="./icons/accept-circle.png" alt="aceptar"></a>
+                                <a href="#"><img src="./icons/close-circle.png" alt="noaceptar"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="connections">
+                    <div class="header">
+                        <p class="number">500+</p>
+                        <h3>Your Connections</h3>
+                    </div>
+                    <div class="content-connections">
+                        <div class="namepic">
+                            <ul>
+                                <li><img src="./images/adrien-s.jpg" alt="imagen de Adrien">Adrien D</li>
+                                <li><img src="./images/anne-s.jpg" alt="imagen de Anne">Anne J</li>
+                                <li><img src="./images/alayne-s.jpg" alt="imagen de Alayne">Alayne T</li>
+                                <li><img src="./images/arry-s.jpg" alt="imagen de Arry">Arry Y</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="more">
+                        <a href="#">View More</a>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </main>
+</body>
+</html>

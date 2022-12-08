@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'DearSans';
+    src: url('/static/css/DearSans-Book.ttf') format('truetype');
+}
+/* Barra de navegacion*/
+header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.nav{
+    width: 100%;
+    height: 60px;
+    background-color: #333333;
+    padding: 0px 440px 0px 435px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-left{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.nav-left a{
+    color: grey;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+h2.nav-title{
+    color:white;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.nav-links{
+    color: #bababa;
+    display: flex;
+    align-items: center;
+}
+a.active{
+    color:white;  
+}
+ul{
+    list-style-type: none;
+    margin-left: 10px;
+}
+button.btn{
+    box-shadow: 3px 3px 0px black;
+    background-color: #17a2b8;
+    border: 3px solid black;
+    width:120px;
+    height: 35px;
+    margin-left: 10px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*main*/
+main{
+    font-family: 'DearSans';
+    font-weight: bolder;
+    padding: 0px 400px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+}
+.container-main{
+    margin: 50px auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:30px;
+
+}
+.container-main-left{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+.container-main-right{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+/*tarjeta de usuario*/
+.container-flex{    
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "DearSans";
+    font-weight: bolder;
+}
+.perfil{
+    width: 100%;
+}
+.row{
+    border-top-right-radius: 2px;
+    border-start-start-radius: 2px;
+    height: 100px;
+    background-color: #17a2b8;
+}
+.data{
+    border: 3px solid #cfcfcf;
+    border-bottom-left-radius: 2px;
+    border-end-end-radius: 2px;
+    border-top: 0px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.data p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#usuario{
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    border:3px solid #cfcfcf;
+    margin:45px 0px 0px 20px ;
+    padding: 1px;
+}
+.icon-text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.icon-text img{
+    height: 15px; 
+    margin-right: 10px;
+    position: relative; /* evitar utilizar esto mucho*/
+    top:2px
+}
+/*Main right*/
+.Requests, .connections{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 3px solid #cfcfcf;
+    border-radius: 4px;
+}
+.header{
+    height: 35px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    background-color: #333333;
+    color: white;
+}
+.number{
+    background-color: grey;
+    border-radius: 50%;
+    padding: 0px 6px;
+}
+.content-request{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px 0px 10px;
+}
+.namepic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container-main-right img{
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid black
+}
+.namepic ul{
+    margin: 0px;
+}
+.namepic li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+    gap: 10px;
+}
+.pairpics{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:5px
+}
+.pairpics img{
+    border: 0px;
+    width: 35px;
+}
+.icons{
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    gap:15px;
+}
+.content-connections{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 10px;
+}
+.more{
+    padding: 8px 10px 10px 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-top: 3px solid  #cfcfcf;
+}
+/* main-left*/
+.education{
+    height: 200px;
+    border: 3px solid #cfcfcf;
+}
+.edu-content{
+    padding: 15px 20px;
+}
